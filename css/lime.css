@@ -1,0 +1,107 @@
+/*---------
+   RESET 
+----------*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  margin: 0;
+}
+
+/*---------
+   COMMON 
+----------*/
+#quadrato{
+  width:auto;
+	height:650px;
+	background-color: rgba(0,0,0,0.5 );
+  margin-top: 30px;
+  padding: 50px;
+}
+
+body{
+  width: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+/*---------
+   HEADER 
+----------*/
+header{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+header .logo{
+  width: 20%;
+  height: 20%;
+  margin-top: 10px;
+}
+
+header #titolo{
+  color: lime;
+  font-size: 30px;
+}
+
+nav{
+  background-color: lime;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/*---------
+   MAIN 
+----------*/
+main{
+  margin-top: 30px;
+}
+
+main section > h3, p, div{
+  color: white;
+}
+
+main section .percentuale{
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 4px;
+  margin-left: 4px;
+}
+
+main section #linea1{
+  background-color: orange;
+  width: 35%  ;
+  height: 25px;
+  border-color: orange;
+}
+
+main section > div{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+main section#sez2{
+  margin-top: 20px;
+}
+
+main section#sez3{
+  margin-top: 20px;
+}
+
+main section #linea2{
+  background-color: green;
+  width: 65%  ;
+  height: 25px;
+  border-color: green;
+}
+
+main section #linea3{
+  background-color: red;
+  width: 15%  ;
+  height: 25px;
+  border-color: red;
+}
