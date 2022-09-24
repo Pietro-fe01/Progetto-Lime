@@ -27,10 +27,23 @@ body{
 }
 
 /*---------
+   BUTTON 
+----------*/
+header nav .button {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+/*---------
    HEADER 
 ----------*/
 header{
-  display: block;
   margin: auto;
   text-align: center;
 }
@@ -46,11 +59,18 @@ header #titolo{
   font-size: 30px;
 }
 
-nav{
+header nav{
   background-color: lime;
-  text-align: center;
+  height: 40px;
   margin-top: 10px;
-  padding: 5px;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /*---------
@@ -68,40 +88,35 @@ main section .percentuale{
   border-radius: 50%;
   background-color: white;
   color: black;
-  padding: 4px;
-  margin-left: 4px;
+  padding: 5px;
+  margin: 0 10px; 
+  font-size: small;
 }
 
-main section #linea1{
+main section > .stato-carica{
+  margin:10px 0;
+}
+
+main section#sez2, main section#sez3{
+  margin-top: 20px;
+}
+
+main section .barra-caricamento{
+  border-radius: 10px;
+  height: 25px;
+}
+
+main section #barra1{
   background-color: orange;
   width: 35%  ;
-  height: 25px;
-  border-color: orange;
 }
 
-main section > div{
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
-
-main section#sez2{
-  margin-top: 20px;
-}
-
-main section#sez3{
-  margin-top: 20px;
-}
-
-main section #linea2{
+main section #barra2{
   background-color: green;
   width: 65%  ;
-  height: 25px;
-  border-color: green;
 }
 
-main section #linea3{
+main section #barra3{
   background-color: red;
   width: 15%  ;
-  height: 25px;
-  border-color: red;
 }

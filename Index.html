@@ -13,13 +13,15 @@
       <header> <!-- IMMAGINE E TITOLO LIME -->
         <img src="images/logo.png" class="logo">
         <h2 id="titolo">Taking Booleaners from A to B</h2>
-      </header>
 
-      <nav>  <!-- PULSANTI NAVIGAZIONE SITO -->
-        <button type="button">Prenota</button>
-        <button type="button" onclick="location.href='https://help.li.me/hc/it'">Homepage</button>
-        <button type="button">Accendi luci</button>
-      </nav>
+        <nav>  <!-- PULSANTI NAVIGAZIONE SITO -->
+          <ul>
+            <li><a class="button" href="#">Prenota</a></li>
+            <li><a class="button" href="https://www.li.me/it-it/" target="_blank">Homepage</a></li>
+            <li><a class="button" href="#">Accendi Luci</a></li>
+          </ul>
+        </nav>
+      </header>
 
       <main>  <!--QUI CI SARA' IL CORPO DEL SITO-->
 
@@ -29,8 +31,10 @@
             Monopattino Gino22
           </h3>
           <p class="">&#8614; Via Guadalametri - a 220 metri da te</p>
-          <div class="">Stato carica:<span class="percentuale"> 35%</span></div>
-          <hr id="linea1">
+          <div class="stato-carica">
+            Stato carica:<span class="percentuale"> 35%</span>
+          </div>
+          <div class="barra-caricamento" id="barra1"></div>
         </section>
 
         <section id="sez2"> <!-- SECONDO MONOPATTINO DA SCEGLIERE -->
@@ -39,8 +43,10 @@
             Monopattino Mike24
           </h3>
           <p class="">&#8614; Via Guadalametri - a 220 metri da te</p>
-          <div class="">Stato carica:<span class="percentuale"> 65%</span></div>
-          <hr id="linea2">
+          <div class="stato-carica">
+            Stato carica:<span class="percentuale"> 65%</span>
+          </div>
+          <div class="barra-caricamento" id="barra2"></div>
         </section>
 
         <section id="sez3"> <!-- TERZO MONOPATTINO DA SCEGLIERE -->
@@ -49,8 +55,10 @@
             Monopattino Fede154
           </h3>
           <p class="">&#8614; Via Guadalametri - a 220 metri da te</p>
-          <div class="">Stato carica:<span class="percentuale"> 15%</span></div>
-          <hr id="linea3">
+          <div class="stato-carica">
+            Stato carica:<span class="percentuale"> 15%</span>
+          </div>
+          <div class="barra-caricamento" id="barra3"></div>
         </section>
 
       </main>
